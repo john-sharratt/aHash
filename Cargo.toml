@@ -28,6 +28,9 @@ default = ["std", "runtime-rng"]
 # Enabling this will enable `AHashMap` and `AHashSet`.
 std = []
 
+# Specialized hasher
+specialize = []
+
 # Runtime random key generation using getrandom.
 runtime-rng = ["getrandom"]
 
